@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">Example_sdk_login</string>
+    <string name="not_valid">AccessToken not valid</string>
+    <string name="valid">AccessToken valid</string>
+    <string name="login">Login</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+
+</resources>
