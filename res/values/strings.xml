@@ -1,10 +1,14 @@
 <resources>
 
-    <string name="app_name">Example_sdk_login</string>
+    <string name="app_name">topoos_sdk_login</string>
     <string name="not_valid">AccessToken not valid</string>
+    <string name="user_valid">User is authorized</string>
+    <string name="user_logged_out">User logged out, pleas log in again</string>
     <string name="valid">AccessToken valid</string>
-    <string name="login">Login</string>
+    <string name="login">LogIn</string>
+    <string name="logout">LogOut</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_loggedin">User is logged in</string>
 
 </resources>
