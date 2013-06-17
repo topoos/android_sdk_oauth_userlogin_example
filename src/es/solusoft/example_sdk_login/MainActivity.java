@@ -42,6 +42,15 @@ public class MainActivity extends Activity implements OnClickListener {
 		if (v.getId() == R.id.button) {
 			Intent intent = new Intent(this, LoginActivity.class);
 			intent.putExtra(LoginActivity.CLIENT_ID, CLIENT_ID);
+			
+			//If you need special scopes (http://docs.topoos.com/api-guides/fundamentals/authentication-and-access/requesting-special-scopes/)
+			//Add the any line below
+			/*
+            intent.putExtra(LoginActivity.SCOPE_EMAIL,true);
+            intent.putExtra(LoginActivity.SCOPE_PROFILE,true);
+            intent.putExtra(LoginActivity.SCOPE_OFFLINE_ACCESS,true);
+			*/
+			
 			startActivityForResult(intent, REQUESTCODE_LOGIN);
 		}
 	}
